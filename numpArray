@@ -1,0 +1,11 @@
+import numpy as np
+numbers = [10, 25, 37, 42, 58]
+array_numbers = np.array(numbers)
+mean_value = np.mean(array_numbers)
+max_value = np.max(array_numbers)
+sum_value = np.sum(array_numbers)
+print("Original List:", numbers)
+print("NumPy Array:", array_numbers)
+print("Mean:", mean_value)
+print("Maximum Value:", max_value)
+print("Sum:", sum_value)
